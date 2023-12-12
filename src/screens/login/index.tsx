@@ -30,16 +30,12 @@ const LoginScreen = () => {
       </Welcome>
 
       <StyledFormControl>
-
         <StyledInput placeholder="Usuário" />
         <StyledInput placeholder="Senha" secureTextEntry />
 
-        <StyledButton>
-          <Text color="white">Entrar</Text>
-        </StyledButton>
+        <StyledButton>Entrar</StyledButton>
 
         <Text color="#0B3B60">Esqueceu sua senha ?</Text>
-
       </StyledFormControl>
 
       <Register>
