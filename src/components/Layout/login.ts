@@ -1,5 +1,5 @@
 import styled from "styled-components/native";
-import { Box, FormControl, Button, Input, VStack, Text } from "native-base";
+import { Box, FormControl, VStack, Text } from "native-base";
 
 export const StyledContainer = styled(VStack)`
 

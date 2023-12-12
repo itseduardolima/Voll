@@ -8,7 +8,7 @@ import {
   StyledFormControl,
   Title,
   Welcome,
-} from "../login/styled";
+} from "../../components/Layout/login";
 import { Image } from "native-base";
 
 import { CheckBoxComponent } from "../../components/checkBox";
@@ -48,7 +48,7 @@ const Register = () => {
           </Welcome>
 
           <StyledFormControl>
-            
+
             <StyledInput placeholder="Insira seu CEP" />
             <StyledInput placeholder="Estado" />
             <StyledInput placeholder="Cidade" />

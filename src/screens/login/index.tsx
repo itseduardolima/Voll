@@ -7,7 +7,7 @@ import {
   StyledFormControl,
   Title,
   Welcome,
-} from "./styled";
+} from "../../components/Layout/login";
 
 import { Image, Text } from "native-base";
 import { useNavigation } from "@react-navigation/native";
