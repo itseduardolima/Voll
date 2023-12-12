@@ -22,6 +22,10 @@ const LoginScreen = () => {
     navigation.navigate("register" as never);
   };
 
+  const goToHome = () => {
+    navigation.navigate("home" as never);
+  };
+
   return (
     <StyledContainer>
       <Welcome>
@@ -33,7 +37,7 @@ const LoginScreen = () => {
         <StyledInput placeholder="Usuário" />
         <StyledInput placeholder="Senha" secureTextEntry />
 
-        <StyledButton>Entrar</StyledButton>
+        <StyledButton onPress={goToHome} >Entrar</StyledButton>
 
         <Text color="#0B3B60">Esqueceu sua senha ?</Text>
       </StyledFormControl>

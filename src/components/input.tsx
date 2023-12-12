@@ -10,6 +10,8 @@ export const StyledInput = styled(Input)`
   width: 311px;
   height: 48px;
   font-family: sans-serif;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+
 `;
 
 const InputComponent = ({ placeholder, value, onChangeText, keyboardType, secureTextEntry }) => {
