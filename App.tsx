@@ -1,4 +1,4 @@
-import Login from "./src/screens/login/Login";
+import Routes from "./src/routes";
 import { Themes } from "./src/styles/themes";
 
 import {NativeBaseProvider, StatusBar} from "native-base"
@@ -10,7 +10,7 @@ export default function App() {
 
       <StatusBar backgroundColor={Themes.colors.blue[800]} />
 
-      <Login />
+      <Routes />
 
     </NativeBaseProvider>
 
