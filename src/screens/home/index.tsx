@@ -4,6 +4,7 @@ import { Container, DepositionsTitle, Form, Header, Title } from "./styled";
 import { StyledButton } from "../../components/button";
 import { StyledInput } from "../../components/input";
 import { Depositions } from "../../components/depositions";
+import { Footer } from "../../components/Layout/footer";
 
 export const Home = () => {
   return (
@@ -16,11 +17,13 @@ export const Home = () => {
       <Form>
         <StyledInput placeholder="Digite a especialidade" />
         <StyledInput placeholder="Digite a Lozalização" secureTextEntry />
-
         <StyledButton>Buscar</StyledButton>
       </Form>
-        <DepositionsTitle>Depoimentos</DepositionsTitle>
+
+      <DepositionsTitle>Depoimentos</DepositionsTitle>
       <Depositions />
+
+      <Footer />
     </Container>
   );
 };

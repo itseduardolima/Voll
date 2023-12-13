@@ -31,6 +31,7 @@ export const Form = styled(FormControl)`
   height: 208px;
   border-radius: 8px;
   margin: 0 auto;
+
 `;
 
 export const DepositionsTitle = styled(Text)`
@@ -42,4 +43,13 @@ export const DepositionsTitle = styled(Text)`
   color: #0b3b60;
   text-align: center;
   margin-bottom: 40px;
+`;
+
+export const Navbar = styled(Box)`
+  width: 100%;
+  height: 76px;
+  padding: 16px 42px;
+  gap: 34px;
+  background-color: #0b3b60;
+  margin-top: 30px;
 `;
