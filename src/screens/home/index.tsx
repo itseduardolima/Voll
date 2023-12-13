@@ -14,12 +14,11 @@ export const Home = () => {
         <Title>Boas vindas!</Title>
       </Header>
 
-      <Form>
+      <Form shadow={1}>
         <StyledInput placeholder="Digite a especialidade" />
         <StyledInput placeholder="Digite a Lozalização" secureTextEntry />
         <StyledButton>Buscar</StyledButton>
       </Form>
-
       <DepositionsTitle>Depoimentos</DepositionsTitle>
       <Depositions />
 

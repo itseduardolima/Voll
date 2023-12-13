@@ -42,7 +42,7 @@ export const DepositionsTitle = styled(Text)`
   line-height: 28px;
   color: #0b3b60;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 `;
 
 export const Navbar = styled(Box)`
